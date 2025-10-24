@@ -13,13 +13,13 @@ A aplicação renderiza uma grade de horários interativa (dias da semana vs. ho
 
 ### Figura 1: Grade Principal e Detecção de Conflitos
 
-![Grade Principal](./docs/screenshots/main-grid.png)
+![Grade Principal](./docs/image.png)
 
 *A interface principal exibe todas as aulas alocadas. Células em vermelho indicam conflitos de alocação (professor ou sala já em uso), e células em laranja indicam conflitos de grade (mesma turma com duas aulas simultâneas).*
 
 ### Figura 2: Interação (Arrastar e Soltar & Copiar/Colar)
 
-![Drag and Drop Demo](./docs/screenshots/drag-drop-demo.gif)
+![Drag and Drop Demo](./docs/demo.gif)
 
 *As aulas podem ser movidas (Drag & Drop) ou duplicadas (usando Ctrl+C e Ctrl+V). O sistema valida conflitos em todas as operações.*
 
