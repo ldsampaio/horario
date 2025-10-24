@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sistema de Horários - UTFPR</title>
+  <!-- 
+    NOTA: O style.css não foi fornecido. 
+    Você precisará de um CSS para o toast e para os filtros.
+  -->
+  <link rel="stylesheet" href="public/style.css">
+</head>
+<body>
+  <header>
+    <h1>Gerenciamento de Horários</h1>
+  </header>
+
+  <!-- 
+    *** NAVEGAÇÃO CORRIGIDA ***
+    Os botões (data-section) agora correspondem
+    exatamente aos 'cases' da função 'renderMain' no app.js.
+  -->
+  <nav>
+    <button data-section="grade">Grade Principal</button>
+    <button data-section="professores">Professores</button>
+    <button data-section="disciplinas">Disciplinas</button>
+    <button data-section="salas">Salas</button> 
+    <button data-section="horarios">Montar Horário</button>
+  </nav>
+
+  <!-- 
+    *** FILTROS E BOTÃO "GERAR GRADE" ADICIONADOS ***
+    Este container e os <select> dentro dele são os elementos
+    que o app.js estava procurando.
+    
+    Ele fica FORA da tag <main> para não ser apagado
+    quando as seções são trocadas.
+  -->
+  <div id="filtro-container" style="display: none; padding: 15px; border-bottom: 1px solid #ddd; background-color: #f9f9f9; margin-bottom: 10px;">
+    <strong>Gerar Visualização da Grade:</strong>
+    
+    <select id="filtro-curso" style="margin-left: 10px;">
+      <option value="">Todos os Cursos</option>
+    </select>
+    
+    <select id="filtro-periodo" style="margin-left: 10px;">
+      <option value="">Todos os Períodos</option>
+    </select>
+    
+    <select id="filtro-professor" style="margin-left: 10px;">
+      <option value="">Todos os Professores</option>
+    </select>
+
+    <!-- Este é o botão que você solicitou -->
+    <button id="gerar-grade-btn" style="margin-left: 15px; padding: 5px 10px;">Gerar Grade</button>
+  </div>
+
+  <!-- 
+    A tag <main> está correta. O app.js procura por 'main' 
+    e vai encontrar esta tag.
+  -->
+  <main id="conteudo">
+    <!-- O conteúdo será carregado aqui pelo app.js -->
+  </main>
+
+  <!-- 
+    *** ELEMENTO TOAST ADICIONADO ***
+    Necessário para as mensagens de sucesso/erro (showToast).
+  -->
+  <div id="toast" class="toast"></div>
+
+  <!-- O caminho do script está mantido -->
+  <script src="public/app.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,8 @@
+# Ignora a pasta de módulos do seu computador
+node_modules
+
+# Ignora logs do npm
+npm-debug.log
+
+# Ignora arquivos do sistema
+.DS_Store

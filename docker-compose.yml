@@ -1,0 +1,16 @@
+
+services:
+  app:
+    build:
+      context: .          # diretório onde está o Dockerfile
+      dockerfile: Dockerfile
+    container_name: horario-app
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app            # monta o diretório atual dentro do container (útil para dev)
+      - /app/node_modules # evita sobrescrever node_modules
+    environment:
+      - NODE_ENV=development
+    command: npm run dev  # opcional: modo dev (hot reload se usar nodemon)
+    restart: unless-stopped

@@ -1,0 +1,128 @@
+[
+  {
+    "disciplina": "ES41A - Algoritmos 1",
+    "professor": "DACOM - Adriane Carla Anastacio Da Silva",
+    "dia": "Segunda",
+    "slot": "N2",
+    "sala": "P101"
+  },
+  {
+    "disciplina": "ES41A - Algoritmos 1",
+    "professor": "DACOM - Alessandro Silveira Duarte",
+    "dia": "Segunda",
+    "slot": "N2",
+    "sala": "P001"
+  },
+  {
+    "disciplina": "ES41A - Algoritmos 1",
+    "professor": "DACOM - Adriane Carla Anastacio Da Silva",
+    "dia": "Terça",
+    "slot": "N2",
+    "sala": "P101"
+  },
+  {
+    "disciplina": "ES41A - Algoritmos 1",
+    "professor": "DACOM - Alessandro Silveira Duarte",
+    "dia": "Terça",
+    "slot": "N2",
+    "sala": "P001"
+  },
+  {
+    "disciplina": "ES41F - Inglés Instrumental",
+    "professor": "DACHS - Maisa De Alcantara Zakir",
+    "dia": "Quarta",
+    "slot": "N2",
+    "sala": "P201"
+  },
+  {
+    "disciplina": "ES41E - Comunicação Oral e Escrita",
+    "professor": "DACHS - Guadalupe Estrelita Dos Santos Menta",
+    "dia": "Quinta",
+    "slot": "N2",
+    "sala": "P201"
+  },
+  {
+    "disciplina": "ES41D - Fundamentos de Matemática",
+    "professor": "DAMAT - Vinicius De Oliveira Silva",
+    "dia": "Sexta",
+    "slot": "N2",
+    "sala": "P201"
+  },
+  {
+    "disciplina": "ES41A - Algoritmos 1",
+    "professor": "DACOM - Adriane Carla Anastacio Da Silva",
+    "dia": "Segunda",
+    "slot": "N3",
+    "sala": "P101"
+  },
+  {
+    "disciplina": "ES41A - Algoritmos 1",
+    "professor": "DACOM - Alessandro Silveira Duarte",
+    "dia": "Segunda",
+    "slot": "N3",
+    "sala": "P001"
+  },
+  {
+    "disciplina": "ES41A - Algoritmos 1",
+    "professor": "DACOM - Adriane Carla Anastacio Da Silva",
+    "dia": "Terça",
+    "slot": "N3",
+    "sala": "P101"
+  },
+  {
+    "disciplina": "ES41A - Algoritmos 1",
+    "professor": "DACOM - Alessandro Silveira Duarte",
+    "dia": "Terça",
+    "slot": "N3",
+    "sala": "P001"
+  },
+  {
+    "disciplina": "ES41F - Inglés Instrumental",
+    "professor": "DACHS - Maisa De Alcantara Zakir",
+    "dia": "Quarta",
+    "slot": "N3",
+    "sala": "P201"
+  },
+  {
+    "disciplina": "ES41E - Comunicação Oral e Escrita",
+    "professor": "DACHS - Guadalupe Estrelita Dos Santos Menta",
+    "dia": "Quinta",
+    "slot": "N3",
+    "sala": "P201"
+  },
+  {
+    "disciplina": "ES41D - Fundamentos de Matemática",
+    "professor": "DAMAT - Vinicius De Oliveira Silva",
+    "dia": "Sexta",
+    "slot": "N3",
+    "sala": "P201"
+  },
+  {
+    "disciplina": "ES41A - Algoritmos 1",
+    "professor": "DACOM - Adriane Carla Anastacio Da Silva",
+    "dia": "Segunda",
+    "slot": "N4",
+    "sala": "P101"
+  },
+  {
+    "disciplina": "ES41A - Algoritmos 1",
+    "professor": "DACOM - Alessandro Silveira Duarte",
+    "dia": "Segunda",
+    "slot": "N4",
+    "sala": "P001"
+  },
+  {
+    "disciplina": "ES41A - Algoritmos 1",
+    "professor": "DACOM - Adriane Carla Anastacio Da Silva",
+    "sala": "P101",
+    "dia": "Segunda",
+    "slot": "N5"
+  },
+  {
+    "disciplina": "ES41A - Algoritmos 1",
+    "professor": "DACOM - Alessandro Silveira Duarte",
+    "dia": "Segunda",
+    "slot": "N5",
+    "sala": "P001"
+  }
+]
