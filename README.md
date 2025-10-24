@@ -19,7 +19,7 @@ A aplicação renderiza uma grade de horários interativa (dias da semana vs. ho
 
 ### Figura 2: Interação (Arrastar e Soltar & Copiar/Colar)
 
-![Drag and Drop Demo](https://raw.githubusercontent.com/ldsampaio/horarios/main/docs/demo.gif)
+![Drag and Drop Demo](https://raw.githubusercontent.com/ldsampaio/horario/main/docs/demo.gif)
 
 *As aulas podem ser movidas (Drag & Drop) ou duplicadas (usando Ctrl+C e Ctrl+V). O sistema valida conflitos em todas as operações.*
 
